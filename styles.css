@@ -1,0 +1,56 @@
+/* 
+    API Project 1 - Pokemon API selected
+
+    Styling criteria:
+        Some styling is required
+        Feel free to use Bootstrap, Material, Flexbox, CSS Grid, etc.
+        Content should be visually appealing
+        The content must be professional and appropriate
+        Do not take up a large portion of your time styling - that's always something you can come back to. 
+*/
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.headers {
+    left: 1.5%;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 95%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgba(221, 221, 221, 0.2);;
+    margin: 12px;
+    padding: 8px;
+}
+
+.wrapper {
+    display: flex;
+    left: 1.5%;
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 95%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgba(221, 221, 221, 0.2);
+    margin: 12px;
+    padding: 8px;
+}
+
+p.subtext {
+    font-size: small;
+}
+
+p.splainer {
+    font-size: medium;
+}
